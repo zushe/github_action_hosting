@@ -1,0 +1,14 @@
+name: "Simple Echo Action - backend group"
+description: "An action that echoes a provided input string"
+author: "Zushe Brook <zushe.brook@tikalk.com>"
+inputs:
+  message:
+    description: "The message to echo"
+    required: true
+    default: "Hello, World!"
+outputs:
+  echoedMessage:
+    description: "The echoed message"
+runs:
+  using: "node16"
+  main: "dist/index.js"
