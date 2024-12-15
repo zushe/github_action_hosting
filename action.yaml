@@ -1,6 +1,8 @@
 name: "Simple Echo Action - backend group"
 description: "An action that echoes a provided input string"
 author: "Zushe Brook <zushe.brook@tikalk.com>"
+icon: "Bell"
+color: "Yellow"
 inputs:
   message:
     description: "The message to echo"
